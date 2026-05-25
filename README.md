@@ -50,3 +50,30 @@ Inspection validates:
 1. Missing dependencies
 2. Object compatibility
 3. Environment readiness
+
+
+### Stage 5 — Deploy Package
+
+If inspection passes, the package is deployed using: `POST /suite/deployment-management/v2/deployments`
+Header used: `Action-Type: import`
+
+### Stage 6 — Poll Import Status
+
+The pipeline monitors deployment progress until one of the following statuses is returned:
+1. COMPLETED
+2. FAILED
+3. COMPLETED_WITH_IMPORT_ERRORS
+
+
+
+## Sample Curl Commands
+### Export Deployment
+`curl --request POST \
+--url https://<appian-url>/suite/deployment-management/v2/deployments \
+--header 'Action-Type: export'`
+
+
+### Import Deployment
+`curl --request POST \
+--url https://<appian-url>/suite/deployment-management/v2/deployments \
+--header 'Action-Type: import'`
