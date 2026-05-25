@@ -11,7 +11,9 @@ Monitor deployment status through Jenkins orchestration
 Improve deployment traceability and reliability
 ## Architecture
 <p align="center">
-  <img src="./Screenshot_8.png" width="400"/>
+  <img src="./Screenshot_8.png" width="45%"/>
+  &nbsp;
+  <img src="./NotebookLM Mind Map.png" width="45%"/>
 </p>
 
 ## Technologies Used
@@ -77,3 +79,4 @@ The pipeline monitors deployment progress until one of the following statuses is
 `curl --request POST \
 --url https://<appian-url>/suite/deployment-management/v2/deployments \
 --header 'Action-Type: import'`
+
