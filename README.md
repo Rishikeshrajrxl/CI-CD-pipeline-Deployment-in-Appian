@@ -1,6 +1,9 @@
 # 🚀 Appian CI/CD Pipeline Automation
 The pipeline automates application migration between Appian environments by replacing manual export/import activities with a standardized and auditable deployment workflow.
 This project demonstrates an automated CI/CD deployment pipeline for the NeuraDev Appian application using Jenkins and the Appian Deployment Management API v2.
+<p align="center">
+  <img src="./Seven-Stage_CI_CD_Deployment_Flow.png" width="100%"/>
+</p>
 
 # Objectives
 Automate Appian package export and import
@@ -11,9 +14,9 @@ Monitor deployment status through Jenkins orchestration
 Improve deployment traceability and reliability
 ## Architecture
 <p align="center">
-  <img src="./Screenshot_8.png" width="45%"/>
+   <img src="./NotebookLM Mind Map.png" width="55%"/>
   &nbsp;
-  <img src="./NotebookLM Mind Map.png" width="45%"/>
+   <img src="./Screenshot_8.png" width="40%"/>
 </p>
 
 ## Technologies Used
