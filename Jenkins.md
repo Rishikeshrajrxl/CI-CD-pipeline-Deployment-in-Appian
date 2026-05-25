@@ -2,9 +2,9 @@ pipeline {
   agent any
 
   environment {
-    SOURCE_URL = 'https://appcinodemo.appiancloud.com'
-    TARGET_URL = 'https://appcinodev.appiancloud.com'
-    APP_UUID   = 'bbc79f0d-5159-43ad-8b23-0057afbb810a'
+    SOURCE_URL = 'Env A'
+    TARGET_URL = 'Enn B'
+    APP_UUID   = 'Application UUID'
 
     SOURCE_API_KEY = credentials('APPIAN_API_KEY')
     TARGET_API_KEY = credentials('TARGET_API_KEY')
